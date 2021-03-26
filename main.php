@@ -38,14 +38,7 @@
                             <div class="sw-foot"></div>
                         </div>
                     </div>
-                   // <div class="menu" style="display: none;">
-                  //    <ul>
-                        //    <li><a href="#header" rel='m_PageScroll2id'>Главная<span></span></a></li>
-                          //  <li><a href="#about" rel='m_PageScroll2id'>Обо мне<span></span></a></li>
-                         //   <li><a href="#portfolio" rel='m_PageScroll2id'>Портфолио<span></span></a></li>
-                        //    <li><a href="#contacts" rel='m_PageScroll2id'>Контакты<span></span></a></li>
-                        //</ul>
-                    </div>
+                 
                     <div class="top-txt">
                         <div class="top-sur text-center">
                             <div>
@@ -62,72 +55,7 @@
             </div>
         </header>
       
-                <div class="modal-footer">
-                    <button class="btn-danger" type="button" data-dismiss="modal">Закрыть</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="modal-2">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h3 class="modal-title">Подробнее</h3>
-                    <button class="close" type="button" data-dismiss="modal">
-                        <i class="fa fa-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <div class="img-content">
-                        <img src="img/pic-more2.png" alt="Картинка сайта">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn-danger" type="button" data-dismiss="modal">Закрыть</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="modal-3">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h3 class="modal-title">Подробнее</h3>
-                    <button class="close" type="button" data-dismiss="modal">
-                        <i class="fa fa-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <div class="img-content">
-                        <img src="img/pic-more3.png" alt="Картинка сайта">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn-danger" type="button" data-dismiss="modal">Закрыть</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="modal-4">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h3 class="modal-title">Подробнее</h3>
-                    <button class="close" type="button" data-dismiss="modal">
-                        <i class="fa fa-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <div class="img-content">
-                        <img src="img/pic-more4.png" alt="Картинка сайта">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn-danger" type="button" data-dismiss="modal">Закрыть</button>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </body>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/animate.css">
