@@ -156,7 +156,7 @@ var b = document.getElementById('lname').value
 var c = document.getElementById('bname').value
 var form = document.querySelector('form')
 
-if (x == "akylbek" && b == "12345" && c=="12345"){
+if (x == "nurel011" && b == "5555" && c=="5555"){
     form.setAttribute("action", "/main.php")
 
 }else{
