@@ -27,10 +27,6 @@
                     <div class=" col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-10 col-xs-offset-1 caption text-center wow fadeInDown" data-wow-offset="150">
                         <h4 class="titl">САЙТ-ПОРТФОЛИО молодого бизнесмена</h4>
                     </div>
-                 <div>
-                 img    
-                 <div/>
-                 
                     <div class="top-txt">
                         <div class="top-sur text-center">
                             <div>
