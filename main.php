@@ -11,12 +11,7 @@
     </style>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="icon" type="images/x-icon" href="img/logo.ico">
-    <!--chart-->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
-    <script src="js/common.js"></script>
+
 </head>
 <body >
     <div class="wrapper">
@@ -54,11 +49,6 @@
 
 </body>
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/animate.css">
-<link rel="stylesheet" href="css/jquery.circliful.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<script src="js/jquery.circliful.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/mixitup.min.js"></script>
+
 
 </html>
