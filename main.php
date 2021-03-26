@@ -21,7 +21,7 @@
 <body>
     <div class="wrapper">
         <!-- ШАПКА -->
-        <header id="header" style="background: black;">
+        <header id="header" style="background: white;">
             <img src="" alt="Фон" class="bgcolor">
             <div class="container">
                 <div class="row">
@@ -38,13 +38,13 @@
                             <div class="sw-foot"></div>
                         </div>
                     </div>
-                    <div class="menu" style="display: none;">
-                        <ul>
-                            <li><a href="#header" rel='m_PageScroll2id'>Главная<span></span></a></li>
-                            <li><a href="#about" rel='m_PageScroll2id'>Обо мне<span></span></a></li>
-                            <li><a href="#portfolio" rel='m_PageScroll2id'>Портфолио<span></span></a></li>
-                            <li><a href="#contacts" rel='m_PageScroll2id'>Контакты<span></span></a></li>
-                        </ul>
+                   // <div class="menu" style="display: none;">
+                  //    <ul>
+                        //    <li><a href="#header" rel='m_PageScroll2id'>Главная<span></span></a></li>
+                          //  <li><a href="#about" rel='m_PageScroll2id'>Обо мне<span></span></a></li>
+                         //   <li><a href="#portfolio" rel='m_PageScroll2id'>Портфолио<span></span></a></li>
+                        //    <li><a href="#contacts" rel='m_PageScroll2id'>Контакты<span></span></a></li>
+                        //</ul>
                     </div>
                     <div class="top-txt">
                         <div class="top-sur text-center">
@@ -61,231 +61,7 @@
                 </div>
             </div>
         </header>
-        <!-- ОБО МНЕ -->
-        <section id="about">
-            <div class="container">
-                <div class="about">
-                    <div class="row">
-                        <div class="content text-center">
-                            <div class="wow fadeInUp" data-wow-offset="150">
-                                <h2>биография</h2>
-                                <hr>
-                            </div>
-                            <div class="some-about col-lg-4 col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="150">
-                                <h3>Немного о себе</h3>
-                                <img src="img/me1.png" alt="Лист" class="me1 ">
-                                <p>Здраствуйте вас представляет Нурэл Абдуманапов
-                                    <br> Я начинающий блогер
-                                    <br> Я с 16 лет начинаю свой бизнес проект
-                                    <br> чтобы развлекать себя я пошел в актеры
-                                </p>
-                            </div>
-                            <div class="knowledge col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-offset="150">
-                            
-                                <h3>Самообразование</h3>
-                                <img src="img/me3.png" alt="лист" class="me3">
-                                <p>Учебы за рубежом знания программ высшее образование</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skils text-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="top-text-ab wow fadeInUp" data-wow-offset="150">
-                                <h2>Профессиональные навыки</h2>
-                                <hr>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                <h4>HTML5|CSS3</h4>
-                                <div id="test-circle1"></div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                <h4>jQuery|JavaScript</h4>
-                                <div id="test-circle2"></div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                <h4>Java|MySQL</h4>
-                                <div id="test-circle3"></div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-                                <h4>Photoshop</h4>
-                                <div id="test-circle4"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ПОРТФОЛИО-->
-        <section id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="article-potf text-center">
-                        <div class="top-text-pt wow fadeInUp" data-wow-offset="150">
-                            <h2>Портфолио</h2>
-                            <hr>
-                        </div>
-                        <div class="top-menu-pt">
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div class="top-menu filter_div controls">
-                                    <ul class="inline">
-                                        <li class="wow bounceInLeft filter active" type="button" data-filter=".all">Все работы</li>
-                                        <li class="wow bounceInLeft filter" type="button" data-filter=".category-1">"под ключ"</li>
-                                        <li class="wow bounceInRight filter" type="button" data-filter=".category-2">Верстка</li>
-                                        <li class="wow bounceInRight filter" type="button" data-filter=".category-3">Прочее</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="Container" class="content-potfol container">
-                            <div class="mix all category-2  category-3 col-lg-3 col-md-3 col-sm-3 col-xs-6 work-cont">
-                                <img src="img/work1.png" alt="Пример" class="work">
-                                <div class="port-item-cont">
-                                    <h4>Птицефабрика Синявинская</h4>
-                                    <p>Краткое описание</p>
-                                    <button type="button" class="btn-more" data-toggle="modal" data-target="#modal-1">Подробнее</button>
-                                </div>
-                            </div>
-                            <div class="mix all category-2 col-lg-3 col-md-3 col-sm-3 col-xs-6 work-cont">
-                                <img src="img/work2.png" alt="Пример" class="work">
-                                <div class="port-item-cont">
-                                    <h4><br>Бетховен</h4>
-                                    <p>Краткое описание</p>
-                                    <button type="button" class="btn-more" data-toggle="modal" data-target="#modal-2">Подробнее</button>
-                                </div>
-                            </div>
-                            <div class="mix all category-1 category-3 category-2 col-lg-3 col-md-3 col-sm-3 col-xs-6 work-cont">
-                                <img src="img/work3.png" alt="Пример" class="work">
-                                <div class="port-item-cont">
-                                    <h4><br>ATSC</h4>
-                                    <p>Краткое описание</p>
-                                    <button type="button" class="btn-more" data-toggle="modal" data-target="#modal-3">Подробнее</button>
-                                </div>
-                            </div>
-
-                            <div class="mix all category-2 col-lg-3 col-md-3 col-sm-3 col-xs-6 work-cont">
-                                <img src="img/work4.png" alt="Пример" class="work">
-                                <div class="port-item-cont">
-                                    <h4><br>Portfolio</h4>
-                                    <p>Краткое описание</p>
-                                    <button type="button" class="btn-more" data-toggle="modal" data-target="#modal-4">Подробнее</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--КОНТАКТЫ-->
-        <section id="contacts">
-            <div class="container">
-                <div class="row">
-                    <div class="cont-comm text-center">
-                        <div class="top-text-comm wow fadeInUp" data-wow-offset="150">
-                            <h2>Контакты</h2>
-                            <hr>
-                            <h4>Если у вас есть вопросы, я с радостью отвечу на них!<br> 
-Для этого свяжитесь со мной удобным для вас способом и я отвечу Вам в ближайшее время!</h4>
-                        </div>
-                        <div class="info">
-                            <div class="col-md-3 col-sm-3 col-xs-6 wow bounceInLeft" data-wow-offset="100">
-                                <div class="contact-box">
-                                    <div class="contacts-icon">
-                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                    </div>
-                                    <h4>E-mail:</h4>
-                                    <p>munarisakov.76@gmail.com</p>
-                                </div>
-                                <div class="contact-box">
-                                    <div class="contacts-icon">
-                                        <i class="fa fa-vk" aria-hidden="true"></i>
-                                    </div>
-                                    <h4>Instagram:</h4>
-                                    <a href="https://instagram.com/nurel011">https://instagram.com/@nurel011</a>
-                                </div>
-                                <div></div>
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-6 wow bounceInLeft" data-wow-offset="100">
-                                <div class="contact-box">
-                                    <div class="contacts-icon">
-                                        <i class="fa fa-desktop" aria-hidden="true"></i>
-                                    </div>
-                                    <h4>Web-сайт:</h4>
-                                    <a href="nurel011.github.io">nurel011.github.io</a>
-                                </div>
-                                <div class="contact-box">
-                                    <div class="contacts-icon">
-                                        <i class="fa fa-skype" aria-hidden="true"></i>
-                                    </div>
-                                    <h4>Skype:</h4>
-                                    <p>nurel011</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-6 col-xs-12 wow bounceInRight" data-wow-offset="100">
-                                <div class="top-text-message">
-                                    <h4>Так же Вы можете написать свое сообщения прямо здесь!<br>Вам необходио заполнить все поля!</h4>
-                                </div>
-                                <div class="message">
-                                    <form method="post" action="https://gmail.com/munarisakov.76@gmail.com">
-                                        <p>Ваше имя
-                                            <br>
-                                            <input type="text" size="32" required name="your_name" placeholder="Ваше имя">
-                                        </p>
-                                        <p>Ваш E-mail
-                                            <br>
-                                            <input type="email" size="32" required name="email" placeholder="example@mail.com">
-                                        </p>
-                                        <p>Ваше сообщение
-                                            <br>
-                                            <textarea type="text" name="comment" cols="34" rows="5" name="messages" placeholder="Ваше сообщение"></textarea>
-                                        </p>
-                                        <p>
-                                            <input type="submit" value="Send" class="btn-sub">
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--ПОДВАЛ-->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-5 col-xs-10">
-                        <div class="text-info">
-                            <p>© 2020 nurel abdumanapov. Профессиональное создание сайтов</p>
-                        </div>
-                    </div>
-                    <div class="col-md-1 col-sm-1 col-xs-1 col-md-offset-6 col-sm-offset-6">
-                        <div class="social">
-                            <a href="https://vk.com/vanchoice">
-                                <i class="fa fa-vk" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-
-
-    <div class="modal" id="modal-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h3 class="modal-title">Подробнее</h3>
-                    <button class="close" type="button" data-dismiss="modal">
-                        <i class="fa fa-close"></i>
-                    </button>
-                </div>
-                <div class="modal-body text-center">
-                    <div class="img-content">
-                        <img src="img/pic-more1.png" alt="Синявинска Фабрика">
-                    </div>
-                </div>
+      
                 <div class="modal-footer">
                     <button class="btn-danger" type="button" data-dismiss="modal">Закрыть</button>
                 </div>
