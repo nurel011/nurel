@@ -49,7 +49,7 @@ if (x == "akylbek" , b == "12345"){
 <!DOCTYPE html>
 <html>
 <style>
-body {font-family: Arial, Helvetica, sans-serif; background-image:url("img/bg.png") ; color: #ddd;}
+body {font-family: Arial, Helvetica, sans-serif; background:brown ; color: #ddd;}
 * {box-sizing: border-box}
 
 /* Full-width input fields */
